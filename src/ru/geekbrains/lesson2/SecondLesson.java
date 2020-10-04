@@ -71,7 +71,7 @@ public class SecondLesson
         }
         }
 
-            System.out.println();
+
         }
 
 
