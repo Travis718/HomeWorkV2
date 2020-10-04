@@ -18,6 +18,21 @@ public class SecondLesson
                 System.out.print(i + " ");
             }
 
+// п.3 задаем массив и проходимся по нему циклом
+        int[] ar = new int[] {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
+        System.out.print("\nЗаданный массив: ");
+        for (int i = 0; i < ar.length; i++) {
+            System.out.print(ar[i] + " ");
+            if (ar[i] < 6) ar[i] *= 2;
+                    }
+        System.out.print("\nИзмененный массив:  ");
+        /* выдал интересную ошибку. причину так и не нашел:
+        Заданный массив: 1 5 3 2 11 4 5 2 4 8 9 1
+        Измененный массив:  2 10 6 4 11 8 10 4 8 8 9 2
+*/
+        for (int i = 0; i < ar.length; i++) {
+            System.out.print(ar[i] + " ");
+        }
 
 
     }
@@ -31,6 +46,9 @@ public class SecondLesson
             System.out.print(inputArray[i] + " ");
         }
     }
+    // п.3 задаем массив и проходимся по нему циклом
+
+
 }
 
 
