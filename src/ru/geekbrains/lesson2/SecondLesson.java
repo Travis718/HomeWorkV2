@@ -44,7 +44,13 @@ public class SecondLesson
         System.out.print(secondArray + " ");
         changeArray(secondArray);
 
+        // п.4 Задаем квадратную матрицу и заполняем ее диагонали единицами
+
+        System.out.println("Task 4");
+        int[][] matrixSquare = new int[10][10];
+
             }
+
     // п.2 создаем массив заданного размера и циклом заполняем его
     static void changeArray(int[] array) {
         System.out.print("\n Новый массив: ");
@@ -54,8 +60,24 @@ public class SecondLesson
             // результат в консоли:  Новый массив: 0 3 6 9 12 15 18 21 [I@5b6f7412
         }
 
+        // п. 4
+        static void matrixSquare();
+        matrixSquare = int[][];        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                if ((i == j) || (i == 10 - 1 - j)) {
+                    matrixSquare [i][j] = 1;
+                }
+            }
+        }
+        }
 
-    }}
+            System.out.println();
+        }
+
+
+    }
+
+
 
 
 
